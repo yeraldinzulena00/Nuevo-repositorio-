@@ -1,3 +1,11 @@
 body {
     background-color: #6FD8D2;
 }
+
+#Uno{
+
+    width: 10;
+    height: 10;
+    background-color: blueviolet;
+    border-top: 10;
+}
