@@ -1,3 +1,47 @@
 body {
+    text-align: center;
     background-color: #6FD8D2;
+    background-position: 0 0 , 10px 10px;
 }
+
+#Uno{
+    
+    width: 10cm;
+    height: 10cm;
+    background-color:rgb(242, 246, 248);
+    border-top: 10;
+    border-color: black;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+    font-family: 'Arial';
+    text-align: center;
+
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    
+}
+
+#bonton{
+
+    margin-top: 3cm;
+    background-color:#ffffff;
+}
+
+#letra{
+
+   color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-family: 'Arial'
+}
+form{
+
+    background-image: url("https://img.freepik.com/foto-gratis/tono-borroso-azul-abstracto-luces-fondo_3248-3666.jpg")
+}
+#letras{
+
+    color: rgb(0, 0, 0);
+        margin-top: 50px;
+        font-family: 'Arial'
+    }
