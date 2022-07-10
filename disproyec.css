@@ -2,6 +2,7 @@ body {
     text-align: center;
     background-color: #6FD8D2;
     background-position: 0 0 , 10px 10px;
+
 }
 
 #Uno{
@@ -20,7 +21,7 @@ body {
     border-width: 6px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
-    
+  
 }
 
 #bonton{
@@ -30,18 +31,61 @@ body {
 }
 
 #letra{
-
+border: 0;
+width: 60%;
    color: rgb(0, 0, 0);
     margin-top: 20px;
     font-family: 'Arial'
 }
 form{
 
-    background-image: url("https://img.freepik.com/foto-gratis/tono-borroso-azul-abstracto-luces-fondo_3248-3666.jpg")
+    background-color: rgb(255, 255, 255);
 }
 #letras{
-
     color: rgb(0, 0, 0);
         margin-top: 50px;
         font-family: 'Arial'
+
+    
     }
+    img{ 
+        width: 5%;
+        height: 5%;
+    }
+
+  
+   hr{
+    color: black;
+    text-align: center;
+   }
+   #dos{
+    width: 17cm;
+    height: 19cm;
+    background-color:rgb(242, 246, 248);
+    border-top: 11;
+    border-color: black;
+    margin: auto;
+    padding: 10px;
+    margin-top: 6px;
+    font-family: 'Arial';
+    text-align: justify;
+
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+   }
+   #letra2{
+   color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-family: 'Arial
+   }
+   #letras2{
+    width: 36%;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-family: 'Arial'
+}
+#bonton2{
+    margin-top: 1cm;
+    background-color: #ffffff;
+}
