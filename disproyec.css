@@ -29,9 +29,14 @@ body {
     margin-top: 3cm;
     background-color:#ffffff;
 }
+#letr{
+    text-align: center;
+   color: rgb(0, 0, 0);
+    font-family: 'Arial'
+}
 
 #letra{
-border: 0;
+    border-bottom: 5px solid red;
 width: 60%;
    color: rgb(0, 0, 0);
     margin-top: 20px;
@@ -88,4 +93,9 @@ form{
 #bonton2{
     margin-top: 1cm;
     background-color: #ffffff;
+}
+#letr2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+     font-family: 'Arial'
 }
