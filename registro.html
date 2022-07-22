@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta uncharset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=wisth-device, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="disproyec.css">
+</head>
+
+<body background="./imagenes/My project.jpg">
+    <h1> <img src="./imagenes/escudocolegio.jpg" alt="escudo">SISTEMA DE INVETARIO COLEGIO LA INDEPENDECIA</h1>
+    <main>
+        <hr>
+        <form name="Registro" id="dos">
+            <h2 id="letr2">REGISTRO</h2>
+            <label for="nombre" id="letra2"></label>
+            <span>Nombre</span>
+            <input type="text" id="letras2" name="nombre" placeholder="Ingresar sus nombres" required>
+
+            <label for="apellidos" id="letra2"></label>
+            <span>Apellidos</span>
+            <input type="text" id="letras2" name="apellidos" placeholder="Ingresar sus apellidos" required><br>
+
+            <label for="telefono" id="letra2"></label>
+            <span>Telefono</span>
+            <input type="tel" id="letras2" name="telefono" placeholder="Ingresar su numero telefonico" maxlength=10
+                required><br>
+
+            <br><label for="Rol" id="letra2"></label>
+            <span>Rol</span>
+            <input name="Rol" placeholder="Elija su rol" required list="Rol">
+            <datalist id="Rol">
+                <option value="Estudiante">Estudiante</option>
+                <option value="Docente">Docente</option>
+                <option value="Externo">Externo</option>
+            </datalist>
+
+            &nbsp;<label for="Curso" id="letra2"></label>
+            <span>Curso</span>
+            <input type="number" id="letras2" name="Curso" placeholder="Ingrese su curso" min=1 max=11 required><br>
+
+            <br><label for="T.doc" id="letra2"></label>
+            <span>Tipo documento</span>
+            <input name="T.doc" placeholder="Elija su tipo de documento" required list="T.doc">
+            <datalist id="T.doc">
+                <option value="T.I"></option>
+                <option value="C.C"></option>
+            </datalist><br>
+
+            <label for="Num.doc" id="letra2"></label>
+            <span>Numero documento</span>
+            <input type="tel" id="letras2" name="Num.doc" placeholder="Ingrese su numero de documento" required><br>
+
+            <br> <label for="Correo">
+                <span>Correo</span>
+                <input type="email" name="correo" id="letras2" autocomplete="email" placeholder="Ingrese un correo"required><br>
+
+                <br> <label for="Contraseña" id="letra2"></label>
+                <span>password</span>
+                <input type="password" id="letras2" name="contraseña" placeholder="cree una contrasena" required minlength="5" maxlength="8">
+
+                <br><label for="Conf.contraseña"></label>
+                <span> Conf.password</span>
+                <input type="password" id="letras2" name="Conf.contraseña" placeholder="confirme su contrasena" required minlength="5" maxlength="8"><br>
+                <input id="bonton2" type="submit" value="Guardar registro" required></li><br>
+        </form>
+    
+
+
+    </main>
+</body>
+
+</html>
